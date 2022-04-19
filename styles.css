@@ -1,0 +1,259 @@
+
+p{
+    font-size: 0.8rem;
+    font-family: "Montserrat-Light";
+}
+
+.break{
+    border-style: none;
+    border-top-style: dotted;
+    background-color: #fff;
+    border-width:8px;
+    width: 5%;
+   margin: 15px auto 20px auto;
+}
+
+.container-fluids {
+    padding: 0 !important;
+}
+
+/*navigation bar*/
+
+.navbar-dark .navbar-brand {
+    margin-left: 60px;
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size:1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/*title*/
+
+#slides {
+    padding: 7% 15%;
+    background-color: #000 ;
+}
+
+.slides-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 80%;
+}
+
+.slides-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-family: "Merriweather";
+}
+
+/*Info*/
+.info-location {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.info-title{
+    font-family: "Merriweather";
+}
+
+.info-address {
+    font-family: "Montserrat-Light";
+    font-weight: lighter;
+    color: #727777;
+}
+
+.info-hours {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.info-table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat-Light";
+    font-weight: lighter;
+    color: #727777;
+}
+
+/*Yelp Review*/
+
+#yelp-review{
+    text-align: center;
+    margin: 5% 15%;
+}
+
+.review-title {
+    padding-bottom: 10px;
+    font-family: "Merriweather";
+}
+
+.button{
+    background: #2b363a;
+    background-image: -webkit-linear-gradient(top, #ec1710, #b30808);
+    background-image: -moz-linear-gradient(top, #ec1710, #b30808);
+    background-image: -ms-linear-gradient(top, #ec1710, #b30808);
+    background-image: -o-linear-gradient(top, #ec1710, #b30808);
+    background-image: linear-gradient(top, #ec1710, #b30808);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #727777;
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(top, #f86464, #cf3434);
+    background-image: -moz-linear-gradient(top, #f86464, #cf3434);
+    background-image: -ms-linear-gradient(top, #f86464, #cf3434);
+    background-image: -o-linear-gradient(top, #f86464, #cf3434);
+    background-image: linear-gradient(top, #f86464, #cf3434);
+    text-decoration: none;
+}
+
+/*Footer*/
+#footer {
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 0;
+    padding: 10px 5px;
+}
+
+.social-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color:#727777;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.web-link {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.web-link:hover {
+    color: #727777;
+}
+
+/*About*/
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 3rem;
+    background-image:url("slide-img/img4.png");
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+}
+
+.intro-title {
+    font-size: 2rem;
+    font-family: "Merriweather";
+}
+
+.intro-body {
+    font-size: 1rem;
+}
+
+.intro-O {
+    text-align: center;
+    font-family: "Montserrat-Light";
+    padding: 2% 20%;
+}
+
+.intro-H {
+    text-align: center;
+    font-family: "Montserrat-Light";
+    padding: 1% 20%;
+}
+
+.intro-S {
+    text-align: center;
+    font-family: "Montserrat-Light";
+    padding: 1% 20%;
+}
+
+/*Menu*/
+
+#menu {
+    text-align: center;
+}
+
+.menu-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 3rem;
+    background-image:url("slide-img/img5.png");
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+}
+
+.menu-front {
+    width: 600px;
+    padding-top: 3%;
+}
+
+.menu-back {
+    width: 600px;
+    padding-bottom: 3%;
+}
+
+/*Blog*/
+.blog-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 3rem;
+    background-image:url("slide-img/img8.png");
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+}
+
+.blog-img {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 15%;
+}
